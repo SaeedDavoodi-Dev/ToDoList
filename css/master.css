@@ -1,0 +1,59 @@
+@import "tailwindcss";
+
+@layer utilities {
+    .row {
+        @apply flex flex-wrap w-full
+    }
+
+    #inpEdit {
+        @apply hidden mr-2.5 pl-2 py-2 md:py-3 w-2/3 rounded-[5px] outline-0 border border-black md:text-[18px]
+    }
+
+    #btnEdit {
+        @apply hidden uppercase border border-black rounded-[10px] w-1/5 py-2 md:py-3 justify-center text-[16px] md:text-[18px] lg:text-[20px] cursor-pointer
+    }
+
+    ._i {
+        @apply text-2xl md:text-[20px] lg:text-[25px] cursor-pointer mx-1.5 hover:text-red-700 duration-200
+    }
+
+    .dark{
+        background-color: rgb(24, 24, 24);
+        color: white;
+    }
+    .darkLight{
+        background-color: rgb(51, 51, 51);
+        color: white;
+    }
+
+    .darkLi{
+        background-color: rgb(122, 117, 44) !important;
+    }
+    .darkLiDone{
+        background-color: rgb(27, 83, 36) !important;
+    }
+    
+}
+
+@font-face {
+    font-family: ubuntu;
+    src: url(../font-icon/Ubuntu-BoldItalic.ttf);
+}
+
+@layer base {
+    body {
+        font-family: ubuntu;
+    }
+
+    li {
+        @apply flex p-1 md:p-2.5 items-center rounded-[5px] justify-between bg-yellow-200 m-2
+    }
+
+    h3 {
+        @apply text-[4vw] md:text-[2vw] first-letter:uppercase py-1.5
+    }
+
+    input[type="checkbox"] {
+        @apply size-5 md:size-4 lg:size-5 cursor-pointer ml-1.5
+    }
+}
