@@ -1,16 +1,21 @@
 # 🎯 ToDo List
 
-<img width="1228" height="567" alt="Image" src="https://github.com/user-attachments/assets/fd5e46a7-0a30-4552-8667-574aa32b2323" />
+<img width="1345" height="607" alt="Image" src="https://github.com/user-attachments/assets/7997695e-7cb8-4fd1-a998-c237effebe96" />
 
   
 ## 📖 Description : 
-I built a calculator using JavaScript as my first JavaScript project.
+A responsive Todo List web application built with JavaScript. Features include adding, editing, deleting tasks, local storage persistence, and a clean, mobile-friendly interface. No frameworks or libraries required.
 
 ## :sparkles: Features
 
-- Basic arithmetic operations
-- Responsive design
-- Clean user interface
+- ✅ Add new tasks with keyboard support
+- ✅ Edit existing tasks inline
+- ✅ Mark tasks as complete/incomplete
+- ✅ Delete single or all completed tasks
+- ✅ **Dark/Light Mode** toggle with system preference detection
+- ✅ **Persistent local storage** - tasks saved automatically
+- ✅ Responsive design (mobile, tablet, desktop)
+- ✅ Clean, modern UI with smooth interactions
   
 ---
   
