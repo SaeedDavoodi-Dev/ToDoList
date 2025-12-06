@@ -19,7 +19,7 @@ A responsive Todo List web application built with JavaScript. Features include a
   
 ---
   
-- [Live Demo](https://saeeddavoodi-dev.github.io/calculator/) <br>
+- [Live Demo](https://saeeddavoodi-dev.github.io/ToDoList/) <br>
   👆👆👆
     
   
@@ -33,7 +33,7 @@ A responsive Todo List web application built with JavaScript. Features include a
   
 - Developed by SAEED DAVOODI
 
-- Created - 2025-11-28
+- Created - 2025-12-1
 
 - Role - Frontend
 
